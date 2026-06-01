@@ -6,7 +6,6 @@ A Python-based Ground Control Station (GCS) application for controlling the SKYD
 ## Features
 
 * Live video display using OpenCV
-* Modern Tkinter GUI
 * UDP-based gimbal control
 * Pitch and Yaw movement control
 * Gimbal center/reset function
@@ -15,8 +14,6 @@ A Python-based Ground Control Station (GCS) application for controlling the SKYD
 * Lightweight and easy to customize
 
 ---
-
-## Screenshot
 
 ### Main Interface
 
@@ -153,11 +150,7 @@ def build_packet(axis: str, speed: int) -> bytes:
 
 Current source:
 
-```python
-self.cap = cv2.VideoCapture(0)
-```
-
-For SKYDROID RTSP streaming:
+SKYDROID RTSP streaming:
 
 ```python
 DAY_RTSP_URL = (
@@ -201,13 +194,10 @@ skydroid-c12-control-station/
 
 * Zoom control implementation
 * Thermal camera switching
-* Object tracking using OpenCV
-* YOLO-based target tracking
 * Joystick support
 * Keyboard control
 * Recording functionality
-* Target lock mode
-* Automatic gimbal stabilization
+
 
 ---
 
