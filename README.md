@@ -55,12 +55,10 @@ RTSP Port   : 554
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/skydroid-c12-control-station.git
+git clone https://github.com/kumarvarun-dev/skydroid-c12-controller.git
 
-cd skydroid-c12-control-station
+cd skydroid-c12-controller
 ```
-
-Install dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -195,7 +193,6 @@ skydroid-c12-control-station/
 * Joystick support
 * Keyboard control
 * Recording functionality
-
 
 ---
 
