@@ -20,7 +20,6 @@ A Python-based Ground Control Station (GCS) application for controlling the SKYD
 * Gimbal directional controls
 * System status monitoring
 * Zoom control placeholders
-* Modern dark-themed UI
 
 ---
 
