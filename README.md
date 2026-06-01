@@ -1,4 +1,3 @@
-# skydroid-c12-controller
 # SKYDROID C12 Gimbal Control Station
 
 A Python-based Ground Control Station (GCS) application for controlling the SKYDROID C12 gimbal over UDP while displaying a live video stream using OpenCV and Tkinter.
