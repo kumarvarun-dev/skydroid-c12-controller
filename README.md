@@ -74,12 +74,6 @@ pillow
 numpy
 ```
 
-Generate requirements.txt:
-
-```bash
-pip freeze > requirements.txt
-```
-
 ---
 
 ## Running the Application
